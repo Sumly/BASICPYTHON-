@@ -1,2 +1,3 @@
-print ("Hello World")
-print ("My is king")
+import datetime
+now=datetime.datetime.now()
+print(now)
