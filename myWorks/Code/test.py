@@ -1,0 +1,9 @@
+bank= int(input("Enter number : "))
+if bank >=1000:
+    print("1000 bath =",bank//1000)
+    bank = bank %1000
+if bank >= 500:
+    print("500 bath =",bank//500)
+    bank = bank %500
+if bank >= 100:
+    print("100 bath =",bank//100)
