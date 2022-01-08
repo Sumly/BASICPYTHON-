@@ -1,4 +1,4 @@
-"""import math
+import math
 light = [int(i) for i in input("Enter n,m : ").split()]
 plan = [int(i) for i in input("Enter n,m : ").split()]
 man = int(input("Enter man number :  "))
@@ -11,6 +11,4 @@ oil_cost = plan[0] * plan[1] * man
 
 ticket_price = (light_cost + oil_cost) / man
 
-print(math.ceil(ticket_price))"""
-tp1 = (1,)
-print(type(tp1))
+print(math.ceil(ticket_price))
